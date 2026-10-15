@@ -1,4 +1,4 @@
--- Sales Intelligence Hub: database, tables and triggers
+-- Sales Management System: database, tables and triggers
 -- Run this first, then run import_data.py to load the CSV files.
 
 CREATE DATABASE IF NOT EXISTS sales_management_system;

@@ -2,7 +2,7 @@ import streamlit as st
 import mysql.connector
 import pandas as pd
 
-st.set_page_config(page_title="Sales Intelligence Hub")
+st.set_page_config(page_title="Sales Management System")
 
 
 def get_connection():
@@ -50,7 +50,7 @@ if st.sidebar.button("Logout"):
     st.session_state.user = None
     st.rerun()
 
-st.title("Sales Intelligence Hub")
+st.title("Sales Management System")
 
 conn = get_connection()
 cursor = conn.cursor()

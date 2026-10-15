@@ -1,4 +1,4 @@
-# Sales Intelligence Hub
+# Sales Management System
 
 A sales management system for a company with 8 branches. Data is stored in **MySQL** and shown through a **Streamlit** web app written in **Python**.
 
